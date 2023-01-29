@@ -439,3 +439,329 @@ header, .navbar {
   color: #3ED1C5;
 }
 
+/* Responsivo Tablet*/
+
+@media(max-width: 768px) {
+
+  /* Global */
+  .container {
+    padding: 20px 0;
+  }
+
+  /* Slider */
+  #mainSlider .carousel-inner,
+  #mainSlider .carousel-item {
+    height: auto;
+  }
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 28px;
+  }
+
+  #mainSlider .carousel-caption p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .carousel-caption {
+    left: 10%;
+    right: 10%;
+  }
+
+  /* About */
+  #about-area img {
+    margin-top: 100px;
+  }
+
+  /* Data */
+  .circle-box div {
+    padding: 0 10px;
+  }
+
+  #data-area p {
+    font-size: 16px;
+  }
+
+  /* Team */
+  .card-title {
+    font-size: 14px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  /* Apply */
+  #apply-area .apply-box {
+    padding: 50px 25px;
+  }
+
+  /* Newsletter */
+  #news-area p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #email-input {
+    width: 70%;
+  }
+
+  #call-area {
+    margin-top: 30px;
+  }
+
+  #call-area .container {
+    padding: 30px;
+  }
+
+  #call-area p,
+  #call-area #call-btn {
+    font-size: 16px;
+  }
+
+}
+
+/* Responsivo Mobile L  */
+
+@media(max-width: 426px) {
+
+  /* Slider */
+  #mainSlider {
+    margin-top: 90px;
+  }
+
+  #mainSlider .carousel-caption {
+    top: 5%;
+  }
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  #mainSlider .carousel-caption p {
+    display: none;
+  }
+
+  .carousel-caption .main-btn {
+    font-size: 14px;
+  }
+
+  /* about */
+  .main-title {
+    font-size: 30px;
+  }
+
+  #about-area img {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  /* Data */
+  .circle-box {
+    width: 50%;
+  }
+
+  /* Team */
+  #team-area .col-md-3 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  /* Apply */
+  #aplly-area {
+    height: auto;
+  }
+
+  #company-img {
+    display: none;
+  }
+
+  /* Filter */
+  #portfolio-area .filter-btn {
+    margin-bottom: 20px;
+  }
+
+  .project-box {
+    width: 50%;
+  }
+
+  /* News */
+  #news-area .main-title {
+    font-size: 24px;
+  }
+
+  #news-area p {
+    font-size: 16px;
+  }
+
+  #email-input {
+    width: 80%;
+  }
+
+  /* Call to action */
+  #call-area p,
+  #call-area #call-btn {
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 0;
+    width: 40%;
+  }
+
+  /* Contact */
+  .contact-box {
+    border: none;
+    margin-bottom: 0;
+  }
+
+  .contact-box i {
+    font-size: 20px;
+  }
+
+  .contact-box p {
+    font-size: 14px;
+  }
+
+  .form-control {
+    font-size: 14px;
+  }
+
+}
+
+/* Responsivo Moblie M  */
+
+@media(max-width: 376px) {
+
+  /* Global */
+  .main-title::after {
+    top: 50px;
+  }
+
+  /* Call to action */
+  #call-area p {
+    width: 100%;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  #call-area #call-btn {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+
+  /* Contact */
+  #contact-area .main-title::after {
+    top: 80px;
+  }
+}
+
+
+
+/* Responsivo Mobile S */
+
+@media(max-width: 321px) {
+  /* Global */
+  .main-title {
+    font-size: 24px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .main-title::after {
+    top: 70px;
+  }
+
+  /* Slider */
+  #mainSlider .carousel-caption h2 {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .carousel-caption .main-btn {
+    font-size: 12px;
+    padding: 7px 14px;
+  }
+
+  /* About */
+  #about-area .main-title::after {
+    top: 40px;
+  }
+
+  /* Service */
+  #services-area .service-box h4 {
+    font-size: 18px;
+  }
+
+  /* Data */
+  #data-area p {
+    font-size: 14px;
+  }
+
+  /* Team */
+  #team-area .main-title::after {
+    top: 40px;
+  }
+
+  #team-area .card-title {
+    font-size: 12px;
+  }
+  
+  #team-area .card-text {
+    font-size: 10px;
+  }
+
+  /* Apply */
+  #apply-area h4 {
+    font-size: 22px;
+  }
+
+  #apply-area p {
+    font-size: 14px;
+  }
+
+  #apply-area .main-btn {
+    font-size: 14px;
+    padding: 7px 14px;
+  }
+
+  /* Portfolio */
+
+  /* News */
+  #news-area .main-title {
+    margin-bottom: 40px;
+  }
+
+  #news-area p {
+    font-size: 14px;
+  }
+
+  #news-btn {
+    font-size: 14px;
+  }
+
+  /* Call to action */
+  #call-area p {
+    width: 100%;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+  #call-area #call-btn {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+
+  /* Contact */
+  .contact-box p {
+    font-size: 12px;
+}
+}
+
+
